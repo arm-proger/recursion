@@ -8,6 +8,8 @@
   * 3.violatedIndex.js
   * 4.shiftRecursion.js
   * 5.nestedArray.js
+  * 6.replacePos.js
+  * 7.sumDigits.js
 * README.md
 
 ---
@@ -67,5 +69,28 @@
 | [14, [1, [[[3, []]], 1], 0] | [14, 1, 3, 1, 0] |
 
 [Decision](./src/5.nestedArray.js)
+
+---
+
+6. Given an array and a number N. Write a recursive function that rotates an array N places to the left. (Hint: to add element to the beginning use arr.unshift())
+
+| Input | Output |
+| ----- | ------ |
+| ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'] 3 | ['d', 'e', 'f', 'g', 'h', 'a', 'b', 'c'] |
+| ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'] -2 | ['g', 'h', 'a', 'b', 'c', 'd', 'e', 'f'] |
+
+[Decision](./src/6.replacePos.js)
+
+---
+
+7. Given a number. Write a function that calculates its sum of the digits and if that sum has more than 1 digit find the sum of digits of that number. Repeat that process if needed and return the result.
+
+| Input | Output |
+| ----- | ------ |
+| 14 | 5 |
+| 29 | 2 |
+| 999999999999 | 9 |
+
+[Decision](./src/7.sumDigits.js)
 
 ---
